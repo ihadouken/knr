@@ -3,12 +3,11 @@
 
 int main() {
     int c;
-    int val;
 
     printf("Please enter your character: ");
     c = getchar();
 
-    printf("ASCII value for %c: %d\n", c, c);
+    printf("\nASCII value for input character is %d\n", c);
     return 0;
 }
 
