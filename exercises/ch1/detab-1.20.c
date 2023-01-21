@@ -1,7 +1,7 @@
 /* Replace tabs with spaces upto the next tabstop */
 
 #include <stdio.h>
-#define TABSIZE 8
+#define TABSIZE 4
 
 int next_tab_stop(int pos, int tablen);
 int main(void) {
@@ -34,6 +34,10 @@ int main(void) {
 int next_tab_stop(int pos, int tablen) {
     int prev, next;
     prev = (pos / tablen) * tablen;
+    /* Current position is a tabstop */
+    if (prev == pos)
+        return pos;
+
     next = prev + tablen;
     return next;
 }
