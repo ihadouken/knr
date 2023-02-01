@@ -7,7 +7,7 @@
 #define OUT 0
 #define IN 1
 
-int main() {
+int main(void) {
     int c, i, j, wlen, wc, state;
     int freq[MAXLEN];
     

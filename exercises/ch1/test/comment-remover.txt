@@ -29,7 +29,7 @@ a
 int i =/* this is allowed */ 0/* ya werid comments! */;
 // test comments end
 
-int main()
+int main(void)
 {
     return 0;
 }

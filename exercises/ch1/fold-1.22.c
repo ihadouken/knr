@@ -9,7 +9,7 @@ int getaline(char s[], int limit);
 /* return the index of last whitespace char. in given line. */
 int last_blank(char line[], int pos, int width);
 
-int main() {
+int main(void) {
     char line[LINELEN];
     int len, blank, pos, i;
 

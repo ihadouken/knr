@@ -7,7 +7,7 @@
 #define MAXLEN 21
 #define MAXWORD 100
 
-int main() {
+int main(void) {
     int c, i, j, state, wc, wlen;
     int freq[MAXLEN];
 

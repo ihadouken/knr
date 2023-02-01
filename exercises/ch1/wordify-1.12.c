@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* prints its output one world per line */
 
-int main() {
+int main(void) {
     int c, p;
 
     while ((c = getchar()) != EOF) {

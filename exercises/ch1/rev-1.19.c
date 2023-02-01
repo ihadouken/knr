@@ -6,7 +6,7 @@
 int getsline(char str[], int lim);
 void reverse(char str[], int len);
 
-int main() {
+int main(void) {
     int len;
     char string[MAXLEN];
     while ((len=getsline(string, MAXLEN)) > 0) {

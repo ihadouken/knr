@@ -5,7 +5,7 @@
 #define SPACE ' '
 #define TAB '\t'
 
-int main() {
+int main(void) {
     int ch, spaces, pos;
     spaces = 0;
     /* Initialize to column one. */

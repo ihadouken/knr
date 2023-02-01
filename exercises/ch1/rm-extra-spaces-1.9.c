@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* This program replaces one or more blanks with a single blank in its input */
 
-int main() {
+int main(void) {
     int c;
     char p;
 

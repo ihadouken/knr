@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* checks ascii charset and displays numeric values for chars. */
 
-int main() {
+int main(void) {
     int c;
 
     printf("Please enter your character: ");

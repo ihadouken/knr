@@ -6,7 +6,7 @@
 
 int getsline(char line[], int lim);
 
-int main() {
+int main(void) {
     char line[MAXLEN];
     int len;
 

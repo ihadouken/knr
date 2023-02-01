@@ -1,7 +1,7 @@
 #include <stdio.h>
 // bare-bones implementation of cat using getchar and putchar.
 
-int main() {
+int main(void) {
     int c;
     while ((c = getchar()) != EOF) {
         if (c == '\t') {
